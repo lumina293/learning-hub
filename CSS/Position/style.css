@@ -1,0 +1,28 @@
+.box {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+/* if do not have class ancestor: relative, absolute positioning will depend on browser */
+.ancestor {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.fixed{
+    position: fixed;
+    top: 10px;
+    left: 500px;
+}
