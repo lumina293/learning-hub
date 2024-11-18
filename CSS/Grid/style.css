@@ -1,5 +1,4 @@
-
-.container {
+/* .container {
     width: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -16,6 +15,11 @@
 .black {
     background-color: #858863;
     width: 100px;
-    height: 100px;
+    height: 100px; */
 }
 
+.box {
+    display: grid;
+    grid-template-columns: auto 400px minmax(200px, 500px);
+    grid-template-rows: 1fr 1fr 2fr 50px;
+}

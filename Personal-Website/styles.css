@@ -1,0 +1,96 @@
+.personal-web {
+  display: flex;
+  padding: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  flex: 1;
+}
+
+.left img {
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.ic-left {
+  display: flex;
+  width: 100%;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+
+.ic-left i {
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+
+.center {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  padding: 50px;
+}
+
+.share {
+  border: 30px;
+  background-color: aliceblue;
+  display: flex;
+  width: 120px;
+  border-radius: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.share i {
+  width: 20px;
+  height: 20px;
+}
+
+.form1 {
+  display: flex;
+}
+
+.personal-information {
+  flex: 1;
+}
+
+td {
+  padding-right: 20px;
+  height: 30px;
+  vertical-align: bottom;
+}
+
+.languages {
+  flex: 1;
+}
+
+.m0 {
+  margin: 0px;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.right {
+  background-color: blue;
+}
